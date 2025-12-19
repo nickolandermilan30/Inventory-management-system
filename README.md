@@ -1,156 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Expo App README</title>
-  <style>
-    /* Reset & Base Styles */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    body {
-      background-color: #f0f4f8;
-      color: #333;
-      line-height: 1.6;
-    }
-    a {
-      color: #0fa15b;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+# Welcome to your Expo app 👋
 
-    /* Container */
-    .container {
-      max-width: 900px;
-      margin: 50px auto;
-      padding: 30px;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    }
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-    h1, h2, h3 {
-      margin-bottom: 15px;
-      color: #0a5c36;
-    }
+## Get started
 
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 25px;
-      text-align: center;
-    }
+1. Install dependencies
 
-    h2 {
-      font-size: 1.6rem;
-      margin-top: 30px;
-    }
+   ```bash
+   npm install
+   ```
 
-    h3 {
-      font-size: 1.3rem;
-      margin-top: 20px;
-    }
+2. Start the app
 
-    p {
-      margin-bottom: 15px;
-    }
+   ```bash
+   npx expo start
+   ```
 
-    code, pre {
-      background: #e6f5ec;
-      padding: 5px 10px;
-      border-radius: 5px;
-      font-family: 'Courier New', Courier, monospace;
-      display: block;
-      overflow-x: auto;
-      margin-bottom: 15px;
-    }
+In the output, you'll find options to open the app in a
 
-    pre {
-      padding: 15px;
-    }
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-    ul {
-      margin-bottom: 15px;
-      padding-left: 20px;
-    }
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-    li {
-      margin-bottom: 10px;
-    }
+## Get a fresh project
 
-    /* Button style for links */
-    .btn-link {
-      display: inline-block;
-      background-color: #0fa15b;
-      color: #fff;
-      padding: 8px 15px;
-      border-radius: 8px;
-      margin-top: 5px;
-      text-decoration: none;
-      transition: background 0.3s ease;
-    }
+When you're ready, run:
 
-    .btn-link:hover {
-      background-color: #0d8b49;
-    }
+```bash
+npm run reset-project
+```
 
-    footer {
-      text-align: center;
-      margin-top: 50px;
-      font-size: 0.9rem;
-      color: #555;
-    }
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Welcome to your Expo App 👋</h1>
-    <p>This is an <a href="https://expo.dev">Expo</a> project created with <a href="https://www.npmjs.com/package/create-expo-app"><code>create-expo-app</code></a>.</p>
+## Learn more
 
-    <h2>Get Started</h2>
-    <h3>1. Install dependencies</h3>
-    <pre><code>npm install</code></pre>
+To learn more about developing your project with Expo, look at the following resources:
 
-    <h3>2. Start the app</h3>
-    <pre><code>npx expo start</code></pre>
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-    <p>In the output, you'll find options to open the app in a:</p>
-    <ul>
-      <li><a href="https://docs.expo.dev/workflow/development-builds/introduction/">Development build</a></li>
-      <li><a href="https://docs.expo.dev/workflow/android-studio-emulator/">Android emulator</a></li>
-      <li><a href="https://docs.expo.dev/workflow/ios-simulator/">iOS simulator</a></li>
-      <li><a href="https://expo.dev/go">Expo Go</a>, a limited sandbox for trying out app development with Expo</li>
-    </ul>
+## Join the community
 
-    <p>You can start developing by editing the files inside the <strong>app</strong> directory. This project uses <a href="https://docs.expo.dev/router/introduction/">file-based routing</a>.</p>
+Join our community of developers creating universal apps.
 
-    <h2>Get a Fresh Project</h2>
-    <p>When you're ready, run:</p>
-    <pre><code>npm run reset-project</code></pre>
-    <p>This command will move the starter code to the <strong>app-example</strong> directory and create a blank <strong>app</strong> directory where you can start developing.</p>
-
-    <h2>Learn More</h2>
-    <ul>
-      <li><a href="https://docs.expo.dev/">Expo documentation</a>: Learn fundamentals, or go into advanced topics with our <a href="https://docs.expo.dev/guides">guides</a>.</li>
-      <li><a href="https://docs.expo.dev/tutorial/introduction/">Learn Expo tutorial</a>: Step-by-step tutorial to create a project that runs on Android, iOS, and web.</li>
-    </ul>
-
-    <h2>Join the Community</h2>
-    <p>Join our community of developers creating universal apps:</p>
-    <ul>
-      <li><a href="https://github.com/expo/expo">Expo on GitHub</a>: View our open source platform and contribute.</li>
-      <li><a href="https://chat.expo.dev">Discord community</a>: Chat with Expo users and ask questions.</li>
-    </ul>
-
-    <footer>
-      &copy; 2025 Expo App. All rights reserved.
-    </footer>
-  </div>
-</body>
-</html>
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#
